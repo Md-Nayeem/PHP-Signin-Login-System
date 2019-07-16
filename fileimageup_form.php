@@ -16,7 +16,7 @@
 
 
 
-<?php include_once 'template/Footer.php'; ?>
+<?php include_once 'template/footer.php'; ?>
 
 
 

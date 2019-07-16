@@ -21,7 +21,7 @@
 			        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Link</a>
+			        <a class="nav-link" href="fileimageup_form.php">Upload File</a>
 			      </li>
 			      <!-- if logged in  -->
 			      <?php if(isset($_SESSION['u_id'])) {?>		      

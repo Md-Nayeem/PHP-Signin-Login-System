@@ -11,8 +11,9 @@ if(isset($_POST['submit'])){
 	$fileError = $_FILES['file']['error'];
 	$fileType = $_FILES['file']['type'];
 
-	//echo "$fileName,$fileTempName,$fileSize,$fileError";
-
+	// echo "$fileName,$fileTempName,$fileSize,$fileError";
+	// exit();
+	
 	$fileExt = explode('.', $fileName);//Here this will a array 
 	$fileActualExt = strtolower(end($fileExt));//End function gets the last value form the array
 
